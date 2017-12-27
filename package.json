@@ -1,0 +1,14 @@
+{
+    "name": "simple-website",
+    "version": "0.1.0",
+    "main": "index.js",
+    "repository": "https://github.com/mur6/simple-website",
+    "author": "MURAKI Taichi <muraki.taichi@gmail.com>",
+    "license": "UNLICENSE",
+    "scripts": {
+        "start": "parcel src/index.html"
+    },
+    "dependencies": {
+        "normalize.css": "^7.0.0"
+    }
+}

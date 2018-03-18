@@ -2,13 +2,14 @@
     "name": "simple-website",
     "version": "0.1.0",
     "main": "index.js",
-    "repository": "https://github.com/mur6/simple-website",
+    "repository": "https://github.com/mur6/simplemanga",
     "author": "MURAKI Taichi <muraki.taichi@gmail.com>",
-    "license": "UNLICENSE",
-    "scripts": {
-        "start": "parcel src/index.html"
-    },
+    "license": "MIT",
     "dependencies": {
         "normalize.css": "^7.0.0"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.23.6",
+        "gulp": "^3.9.1"
     }
 }

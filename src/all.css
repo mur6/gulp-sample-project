@@ -1,2 +1,64 @@
 @charset "utf-8";
-@import "../node_modules/normalize.css/normalize.css";
+
+body {
+    background-color: #333;
+  }
+  
+  .wrap {
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 200px;
+    background-color: #666;
+  }
+  
+  .item {
+    width: 33.3333%;
+    height: 100%;
+    background-color: #3F51B5;
+  }
+  
+  .sample1 {
+    justify-content: space-between;
+    align-content: space-between;
+  }
+  
+  .sample1 .item {
+    width: 20%;
+  }
+  
+  .green {
+    background-color: #00BCD4;
+  }
+  
+  .light-green {
+    background-color: #009688;
+  }
+  
+  .s2-i1 {
+    flex: 0 0 50px;
+  }
+  
+  .s2-i2 {
+    flex: 1 1 100%;
+  }
+  
+  .s2-i3 {
+    flex: 0 0 50px;
+  }
+  
+  .s3-i1,
+  .s3-i3 {
+    flex: 0 0 50px;
+  }
+  
+  .s3-i2 {
+    flex: 1 1 auto;
+  }
+  
+  .s3-i4 {
+    flex: 5 1 auto;
+  }
